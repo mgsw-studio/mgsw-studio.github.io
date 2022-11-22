@@ -3,8 +3,7 @@ email: mgsw.studio@gmail.com
 description: >-
   Studio Kreatif di Jakarta yang bergerak dibidang jasa digital seperti Desain dan Branding, Motion dan video, UI & UX serta, jasa pembuatan Website / eCommerce
 tagline: Satu Agensi Berbagai Solusi
-url: "https://mgsw-studio.github.io"
-baseurl: "/mgsw-studio.github.io" 
+baseurl: "/" 
 permalink: /:title
 include:
   - "_pages"
