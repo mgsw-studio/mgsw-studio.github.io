@@ -1,0 +1,24 @@
+{% if site.data.home %}
+	{% for item in site.data.home.hero-card %}
+	<div class="col">
+		<a class="card-flip" href="{{ item.url | relative_url }}">
+			<div class="card-flip-inner">
+				<div class="card-flip-front" style="background-image: url({{ item.image | relative_url }});">
+					<div class="d-flex flex-column h-100 ignore-dark-mode">
+						<h2 class="fs-lg fw-700 mb-0 mt-auto">{{ item.title }}</h2>
+					</div>
+				</div>
+				<div class="card-flip-back bg-secondary">
+					<div class="d-flex flex-column h-100 px-sm-2 pt-sm-2 px-lg-0 pt-lg-0 px-xl-3 pt-xl-3">
+						<h3 class="h4">{{ item.title }}</h3>
+						<p class="text-body mb-3">{{ item.content }}</p>
+						<div class="text-end pt-3 pt-sm-2 pt-xl-4 mt-auto me-sm-n2 me-lg-0 me-xl-n3">
+							<div class="btn btn-sm btn-icon btn-outline-dark rounded-circle"><i class="ai-arrow-right"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+	{% endfor %}
+{% endif %}

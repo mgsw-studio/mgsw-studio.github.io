@@ -1,0 +1,19 @@
+{% if site.data.gallery %}
+<div class="swiper-wrapper gallery align-items-end">
+	{% for item in site.data.gallery %}
+	<!-- Item-->
+	<div class="swiper-slide w-auto">
+		<a class="d-block gallery-item card-hover zoom-effect" href="{{ item.image | relative_url }}" style="{{ item.style }}">
+			<div class="d-flex justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 rounded overflow-hidden zindex-2 opacity-0">
+				<i class="ai-zoom-in fs-2 text-white position-relative zindex-2"></i>
+				<div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-40"></div>
+			</div>
+			<div class="zoom-effect-wrapper rounded">
+				<div class="zoom-effect-img">
+					<img src="{{ item.image | relative_url }}" alt="{{ item.title }}">
+				</div>
+			</div>
+	</a></div>
+	{% endfor %}
+</div>
+{% endif %}

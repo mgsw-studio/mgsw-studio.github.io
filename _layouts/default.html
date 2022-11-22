@@ -1,0 +1,31 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>
+			{% if page.title %}
+				{{ page.title }} - {{ site.title}} - {{ site.tagline }}
+			{% else %}
+				{{ site.title }} - {{ site.tagline }}
+			{% endif %}
+		</title>
+		{% seo %}
+		{% include header.html %}
+	</head>
+	<body>
+		<div class="page-loading active">
+			<div class="page-loading-inner">
+				<div class="page-spinner"></div><span>Mohon Tunggu...</span>
+			</div>
+		</div>
+		<main class="page-wrapper {% if page.url == '/contact/' %} bg-secondary {% endif %}">
+			{% include menu.html %}
+				{{ content }}
+		</main>
+		{% include footer.html %}
+	</body>
+</html>

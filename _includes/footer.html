@@ -1,0 +1,123 @@
+<footer class="footer bg-dark position-relative py-4 py-md-5">
+	<div class="d-none d-dark-mode-block position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(255,255,255, .02);"></div>
+	<div class="dark-mode container position-relative zindex-2 pt-4 pt-md-2 pt-xl-4 pt-xxl-5">
+		<div class="row py-md-3 mb-4 mb-md-5">
+			<div class="col-md-7 col-lg-6 col-xxl-5 mb-sm-4 mb-md-0">
+				<h2 class="display-4 mb-4 mb-md-5">Satu Agensi Berbagai Solusi</h2>
+				<div class="d-sm-flex align-items-center">
+					<a class="btn btn-lg btn-outline-dark rounded-0 me-sm-3 me-lg-4" href="/contact/">Hubungi Kami</a>
+					<p class="fs-sm py-3 py-sm-0 ps-sm-2 mb-0">Kami akan segera menghubungi Anda dan memberikan layanan konsultasi gratis untuk solusi yang tepat.</p>
+				</div>
+			</div>
+			<div class="col-md-5 offset-lg-1 offset-xxl-2 d-flex flex-column">
+				<div class="nav mx-n2 mx-lg-n4 mb-2 mb-sm-3">
+					{% assign footer_menu = site.data.menu.footer-menu %}
+					{% for item in footer_menu %}
+						<a class="nav-link px-2 px-lg-4" href="{{ item.url | relative_url }}">{{ item.name }}</a>
+					{% endfor %}
+				</div>
+				<div class="nav flex-column mb-3 mb-sm-4">
+					{% assign contact_menu = site.data.menu.contact-menu %}
+					{% for item in contact_menu %}
+						<a class="nav-link py-1 px-0">{{ item.name }}</a>
+					{% endfor %}
+				</div>
+				<!--
+				<div class="nav mx-n2 mt-auto">
+					{% assign social_menu = site.data.menu.social-menu %}
+					{% for item in social_menu %}
+						<a class="nav-link py-1 px-2 me-2" href="{{ item.url | relative_url }}" target="_blank">{{ item.name }}</a>
+					{% endfor %}
+				</div>
+				-->
+			</div>
+		</div>
+	<p class="fs-sm pt-3 pb-2 pb-lg-0 mb-0"><span class="opacity-70">&copy; Copyright © {{ site.time | date: "%Y" }} {{ site.title }} All rights reserved.</span></p>
+	</div>
+</footer>
+
+<a class="btn-scroll-top" href="#top" data-scroll>
+	<svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+		<circle cx="20" cy="20" r="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"></circle>
+	</svg><i class="ai-arrow-up"></i>
+</a>
+{% if page.url == "/404.html" %}
+	<script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/smooth-scroll/smooth-scroll.polyfills.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% endif %}
+{% if page.url == "/" %}
+	<script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/smooth-scroll/smooth-scroll.polyfills.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/shufflejs/shuffle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/swiper/swiper-bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% endif %}
+{% if page.url == "/project/" %}
+	<script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/smooth-scroll/smooth-scroll.polyfills.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/shufflejs/shuffle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% endif %}
+{% if page.path contains "_projects" %}
+	<script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/smooth-scroll/smooth-scroll.polyfills.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/lightgallery/lightgallery.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/lightgallery/plugins/fullscreen/lg-fullscreen.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/lightgallery/plugins/zoom/lg-zoom.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/lightgallery/plugins/video/lg-video.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/lightgallery/plugins/thumbnail/lg-thumbnail.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/swiper/swiper-bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% endif %}
+{% if page.url == "/pricing/" %}
+	<script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/smooth-scroll/smooth-scroll.polyfills.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/aos/aos.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% endif %}
+{% if page.url == "/blog/" %}
+	<script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/smooth-scroll/smooth-scroll.polyfills.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% endif %}
+{% if page.path contains "_posts" %}
+	<script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/smooth-scroll/smooth-scroll.polyfills.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/swiper/swiper-bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% endif %}
+{% if page.path contains "_services" %}
+	<script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/smooth-scroll/smooth-scroll.polyfills.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/jarallax/jarallax.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/swiper/swiper-bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% endif %}
+{% if page.url == "/courses/" %}
+	<script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/smooth-scroll/smooth-scroll.polyfills.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% endif %}
+{% if page.url == "/contact/" %}
+	<script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/smooth-scroll/smooth-scroll.polyfills.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% endif %}
+{% if page.url == "/about/" %}
+	<script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/smooth-scroll/smooth-scroll.polyfills.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/jarallax/jarallax.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/swiper/swiper-bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/lightgallery/lightgallery.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/lightgallery/plugins/fullscreen/lg-fullscreen.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/lightgallery/plugins/zoom/lg-zoom.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% endif %}
+{% if page.url == "/terms/" %}
+	<script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/vendor/smooth-scroll/smooth-scroll.polyfills.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+{% endif %}
