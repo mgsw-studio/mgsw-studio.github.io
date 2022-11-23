@@ -19,7 +19,7 @@ permalink: /courses/
 			<div class="d-flex align-items-center mb-4">
 				<h1 class="display-1 mb-0 text-center">Segera</h1>
 			</div>
-			<a class="btn btn-outline-dark w-100" href="{{ site.baseurl }}">Kembali ke Halaman Utama</a>
+			<a class="btn btn-outline-dark w-100" href="{{ site.url }}">Kembali ke Halaman Utama</a>
 		</div>
 	</div>
 </div>
