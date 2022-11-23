@@ -10,7 +10,7 @@ permalink: /project/
 		<div class="row pb-lg-4 mb-2 mb-sm-3">
 			<div class="col-xxl-9 col-lg-8 d-flex mx-auto">
 				{% assign filter-item = site.data.filter.filter-project %}
-				<ul class="masonry-filters nav nav-pills fs-sm flex-nowrap overflow-auto text-nowrap w-100 mx-auto me-lg-0 pb-3">
+				<ul class="masonry-filters nav nav-pills fs-sm flex-nowrap overflow-auto text-nowrap w-100 mx-auto justify-content-center me-lg-0 pb-3">
 					{% for item in filter-item %}
 						<li class="nav-item mb-0"><a class="nav-link border {% if item == name %} active {% endif %}" href="#" data-group="{{ item.data-group }}">{{ item.name }}</a></li>
 					{% endfor %}
