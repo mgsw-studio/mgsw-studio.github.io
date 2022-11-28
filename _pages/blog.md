@@ -7,7 +7,7 @@ permalink: /blog/
 <div class="container pt-5 pb-lg-5 pb-md-4 pb-2 my-5">
 	<nav aria-label="breadcrumb">
 		<ol class="pt-lg-3 pb-lg-4 pb-2 breadcrumb">
-			<li class="breadcrumb-item"><a href="{{ site.baseurl }}">{{ site.title }}</a></li>
+			<li class="breadcrumb-item"><a href="{{ site.url }}">{{ site.title }}</a></li>
 			<li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
 		</ol>
 	</nav>
