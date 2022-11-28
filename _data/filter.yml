@@ -1,0 +1,11 @@
+filter-project:
+  - name: "Semua"
+    data-group: "all"
+  - name: "Branding & Desain"
+    data-group: "branding-design"
+  - name: "Motion & Video"
+    data-group: "motion-video"
+  - name: "UI & UX"
+    data-group: "ui-ux"
+  - name: "Web & eCommerce"
+    data-group: "web-ecommerce"

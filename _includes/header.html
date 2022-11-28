@@ -1,0 +1,59 @@
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/favicon/apple-touch-icon.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicon/favicon-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/img/favicon/favicon-16x16.png' | relative_url }}">
+<link rel="manifest" href="{{ '/assets/img/favicon/site.webmanifest' | relative_url }}">
+<link rel="mask-icon" color="#1A1A1A" href="{{ '/assets/img/favicon/safari-pinned-tab.svg' | relative_url }}">
+<meta name="msapplication-TileColor" content="#1A1A1A">
+<meta name="msapplication-config" content="{{ '/assets/img/favicon/browserconfig.xml' | relative_url }}">
+<meta name="theme-color" content="white">
+<script>let mode=window.localStorage.getItem("mode"),root=document.getElementsByTagName("html")[0];void 0!==mode&&"dark"===mode?root.classList.add("dark-mode"):root.classList.remove("dark-mode");</script>
+<style>.page-loading{position:fixed;top:0;right:0;bottom:0;left:0;width:100%;height:100%;-webkit-transition:.4s ease-in-out .2s;transition:.4s ease-in-out .2s;background-color:#fff;opacity:0;visibility:hidden;z-index:9999}.dark-mode .page-loading{background-color:#121519}.page-loading.active{opacity:1;visibility:visible}.page-loading-inner{position:absolute;top:50%;left:0;width:100%;text-align:center;-webkit-transform:translateY(-50%);transform:translateY(-50%);-webkit-transition:opacity .2s ease-in-out;transition:opacity .2s ease-in-out;opacity:0}.page-loading.active>.page-loading-inner{opacity:1}.page-loading-inner>span{display:block;font-family:Inter,sans-serif;font-size:1rem;font-weight:400;color:#6f788b}.dark-mode .page-loading-inner>span{color:#fff;opacity:.6}.page-spinner{display:inline-block;width:2.75rem;height:2.75rem;margin-bottom:.75rem;vertical-align:text-bottom;background-color:#d7dde2;border-radius:50%;opacity:0;-webkit-animation:.75s linear infinite spinner;animation:.75s linear infinite spinner}.dark-mode .page-spinner{background-color:rgba(255,255,255,.25)}@-webkit-keyframes spinner{0%{-webkit-transform:scale(0);transform:scale(0)}50%{opacity:1;-webkit-transform:none;transform:none}}@keyframes spinner{0%{-webkit-transform:scale(0);transform:scale(0)}50%{opacity:1;-webkit-transform:none;transform:none}}</style>
+<script>window.onload=function(){let e=document.querySelector(".page-loading");e.classList.remove("active"),setTimeout(function(){e.remove()},1500)};</script>
+<link rel="preconnect" href="//fonts.googleapis.com">
+<link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+<link href="//fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+{% if page.url == "/404.html" %}
+	<link rel="stylesheet" media="screen" href="{{ '/assets/css/theme.css' | relative_url }}">
+{% endif %}
+{% if page.url == "/" %}
+	<link rel="stylesheet" media="screen" href="{{ '/assets/vendor/swiper/swiper-bundle.min.css' | relative_url }}"/>
+	<link rel="stylesheet" media="screen" href="{{ '/assets/css/theme.css' | relative_url }}">
+{% endif %}
+{% if page.url == "/project/" %}
+	<link rel="stylesheet" media="screen" href="{{ '/assets/css/theme.css' | relative_url }}">
+{% endif %}
+{% if page.path contains "_projects" %}
+	<link rel="stylesheet" media="screen" href="{{ '/assets/vendor/swiper/swiper-bundle.min.css' | relative_url }}"/>
+	<link rel="stylesheet" media="screen" href="{{ '/assets/vendor/lightgallery/css/lightgallery-bundle.min.css' | relative_url }}"/>
+	<link rel="stylesheet" media="screen" href="{{ '/assets/css/theme.css' | relative_url }}">
+{% endif %}
+{% if page.url == "/pricing/" %}
+	<link rel="stylesheet" media="screen" href="{{ '/assets/vendor/aos/aos.css' | relative_url }}">
+	<link rel="stylesheet" media="screen" href="{{ '/assets/css/theme.css' | relative_url }}">
+{% endif %}
+{% if page.url == "/blog/" %}
+	<link rel="stylesheet" media="screen" href="{{ '/assets/css/theme.css' | relative_url }}">
+{% endif %}
+{% if page.path contains "_posts" %}
+	<link rel="stylesheet" media="screen" href="{{ '/assets/vendor/swiper/swiper-bundle.min.css' | relative_url }}"/>
+	<link rel="stylesheet" media="screen" href="{{ '/assets/css/theme.css' | relative_url }}">
+{% endif %}
+{% if page.path contains "_services" %}
+	<link rel="stylesheet" media="screen" href="{{ '/assets/vendor/swiper/swiper-bundle.min.css' | relative_url }}"/>
+	<link rel="stylesheet" media="screen" href="{{ '/assets/css/theme.css' | relative_url }}">
+{% endif %}
+{% if page.url == "/courses/" %}
+	<link rel="stylesheet" media="screen" href="{{ '/assets/css/theme.css' | relative_url }}">
+{% endif %}
+{% if page.url == "/contact/" %}
+	<link rel="stylesheet" media="screen" href="{{ '/assets/css/theme.css' | relative_url }}">
+{% endif %}
+{% if page.url == "/about/" %}
+	<link rel="stylesheet" media="screen" href="{{ '/assets/vendor/swiper/swiper-bundle.min.css' | relative_url }}"/>
+	<link rel="stylesheet" media="screen" href="{{ '/assets/vendor/lightgallery/css/lightgallery-bundle.min.css' | relative_url }}"/>
+	<link rel="stylesheet" media="screen" href="{{ '/assets/css/theme.css' | relative_url }}">
+{% endif %}
+{% if page.url == "/terms/" %}
+	<link rel="stylesheet" media="screen" href="{{ '/assets/css/theme.css' | relative_url }}">
+{% endif %}
+{% include analytics.html %}

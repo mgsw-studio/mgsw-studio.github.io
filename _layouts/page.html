@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+{% if page.path contains "_services" %}
+	<section class="jarallax dark-mode bg-dark py-5" data-jarallax data-speed="0.6">
+		<div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-80"></div>
+		<div class="jarallax-img" style="background-image: url({{ page.featured-img | relative_url }});"></div>
+		<div class="container position-relative zindex-2 pt-5 pb-md-2 pb-lg-3 pb-xl-4 pb-xxl-5">
+			<nav aria-label="breadcrumb">
+				<ol class="pt-lg-3 mb-0 breadcrumb">
+					<li class="breadcrumb-item text-white"><a href="{{ site.baseurl }}">{{ site.title }}</a></li>
+					<li class="breadcrumb-item text-white">Layanan</li>
+					<li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+				</ol>
+			</nav>
+			<div class="d-none d-xxl-block" style="height: 170px;"></div>
+			<div class="d-none d-lg-block d-xxl-none" style="height: 120px;"></div>
+			<div class="d-none d-md-block d-lg-none" style="height: 80px;"></div>
+			<div class="d-md-none" style="height: 40px;"></div>
+				<h1 class="display-2 mb-4">{{ page.title }}</h1>
+				<p class="mb-0 text-white fs-5" style="max-width: 480px;">{{ page.description }}</p>
+			<div class="d-none d-xxl-block" style="height: 220px;"></div>
+			<div class="d-none d-lg-block d-xxl-none" style="height: 160px;"></div>
+			<div class="d-none d-md-block d-lg-none" style="height: 100px;"></div>
+			<div class="d-md-none" style="height: 50px;"></div>
+		</div>
+	</section>
+{% else %}
+	<section class="container pt-5 mt-5">
+		<nav aria-label="breadcrumb">
+			<ol class="pt-lg-3 pb-lg-4 pb-2 breadcrumb">
+				<li class="breadcrumb-item"><a href="{{ site.baseurl }}">{{ site.title }}</a></li>
+				<li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+			</ol>
+		</nav>
+		<div class="col-8 offset-2">
+			<h1 class="display-3 text-center">{{ page.title }}</h1>
+			<p class="text-center pb-4 mb-2 mb-lg-3">{{ page.description }}</p>
+		</div>
+	</section>
+{% endif %}
+{{ content }}
