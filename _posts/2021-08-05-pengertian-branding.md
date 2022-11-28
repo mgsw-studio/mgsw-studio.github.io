@@ -3,7 +3,7 @@ layout: post
 title:  "Apa Itu Branding: Pengertian, Unsur, Tujuan, dan Fungsinya Dalam Bisnis"
 short-name:  "Pengertian Branding"
 thumbnail-image: "assets/img/blog/pengertian-branding-thumbnail.webp"
-featured-image: "assets/img/blog/pengertian-branding.webp"
+image: "assets/img/blog/pengertian-branding.webp"
 date:   "2021-08-05"
 featured: true
 author: "Rio Brian"

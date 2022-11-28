@@ -3,7 +3,7 @@ layout: post
 title:  "Perbedaan LiteSpeed Dengan Nginx, Mana yang Lebih Unggul?"
 short-name: "Perbedaan Litespeed & Nginx"
 thumbnail-image: "assets/img/blog/perbedaan-litespeed-dengan-nginx-mana-yang-lebih-unggul-thumbnail.webp"
-featured-image: "assets/img/blog/perbedaan-litespeed-dengan-nginx-mana-yang-lebih-unggul.webp"
+image: "assets/img/blog/perbedaan-litespeed-dengan-nginx-mana-yang-lebih-unggul.webp"
 date:   "2022-11-02"
 featured: false
 author: "Nurfi K.H"

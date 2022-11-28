@@ -3,7 +3,7 @@ layout: post
 title:  "Pengertian Iklan, Tujuan, Ciri-Ciri, Jenis Iklan, dan Syaratnya"
 short-name: "Pengertian Iklan"
 thumbnail-image: "assets/img/blog/pengertian-iklan-thumbnail.webp"
-featured-image: "assets/img/blog/pengertian-iklan.webp"
+image: "assets/img/blog/pengertian-iklan.webp"
 date:   "2022-09-26"
 featured: true
 author: "Rio Brian"
