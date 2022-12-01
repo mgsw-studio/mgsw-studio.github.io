@@ -2,8 +2,8 @@
 layout: post
 title:  "Persamaan dan Perbedaan Antara UI & UX"
 short-name:  "Tentang UI & UX"
-thumbnail-image: ""
-image: ""
+thumbnail-image: "assets/img/blog/tentang-ui-dan-ux-thumbnail.webp"
+image: "assets/img/blog/tentang-ui-dan-ux.webp"
 date:   "2022-12-02"
 featured: true
 author: "Mogsaw"
