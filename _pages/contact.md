@@ -21,7 +21,7 @@ permalink: /contact/
 					<div class="card-body">
 						<h4 class="card-title mb-4">Mobile</h4>
 						<ul class="list-unstyled mb-0">
-							<li class="pb-1"><span class="d-block fs-sm text-muted mb-1">WhatsApp</span><a class="nav-link fs-lg p-0" href="https://wa.me/+6281282820734" target="_blank">+62 812-8282-0734</a></li>
+							<li class="pb-1"><span class="d-block fs-sm text-muted mb-1">WhatsApp</span><a class="nav-link fs-lg p-0" href="https://wa.me/+6281282820734" target="_blank">0882-1177-1992</a></li>
 						</ul>
 					</div>
 				</div>
