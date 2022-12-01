@@ -2,7 +2,16 @@
 layout: default
 ---
 
-<section class="container pt-5 mt-5">
+<style>
+	.blog-post h1,
+	.blog-post h2,
+	.blog-post h3,
+	.blog-post h4,
+	.blog-post h5 {
+		font-weight: 700;
+	}
+</style>
+<section class="container blog-post pt-5 mt-5">
 	<nav aria-label="breadcrumb">
 		<ol class="pt-lg-3 pb-lg-4 pb-2 breadcrumb">
 			<li class="breadcrumb-item"><a href="{{ site.url }}">{{ site.title }}</a></li>
@@ -39,32 +48,32 @@ layout: default
 				</div>
 			</div>
 		</div>
-	<aside class="col-lg-3 offset-xl-1">
-		<div class="offcanvas-lg offcanvas-end" id="sidebar">
-			<div class="offcanvas-header">
-				<h4 class="offcanvas-title">Sidebar</h4>
-				<button class="btn-close ms-auto" type="button" data-bs-dismiss="offcanvas" data-bs-target="#sidebar"></button>
-			</div>
-			<div class="offcanvas-body">
-				<h4 class="pt-1 pt-lg-0 mt-lg-n2">Terpopuler:</h4>
-				<div class="mb-lg-5 mb-4">
-				{% for post in site.posts limit: 4 %}
-					{% if post.featured == true %}
-						<article class="position-relative pb-2 mb-3 mb-lg-4">
-							<img class="rounded" src="{{ post.thumbnail-image | relative_url }}" alt="{{ post.title }}">
-							<h5 class="h6 mt-3 mb-0"><a class="stretched-link" href="{{ post.url }}">{{ post.title }}</a></h5>
-						</article>
-					{% endif %}
-				{% endfor %}
+		<aside class="col-lg-3 offset-xl-1">
+			<div class="offcanvas-lg offcanvas-end" id="sidebar">
+				<div class="offcanvas-header">
+					<h4 class="offcanvas-title">Sidebar</h4>
+					<button class="btn-close ms-auto" type="button" data-bs-dismiss="offcanvas" data-bs-target="#sidebar"></button>
 				</div>
-				<h4 class="pt-3 pt-lg-1 mb-4">Artikel Terbaru:</h4>
-				<ul class="list-unstyled mb-lg-5 mb-4">
+				<div class="offcanvas-body">
+					<h4 class="pt-1 pt-lg-0 mt-lg-n2">Terpopuler:</h4>
+					<div class="mb-lg-5 mb-4">
 					{% for post in site.posts limit: 4 %}
-						<li class="border-bottom pb-3 mb-3"><span class="h6 mb-0"><a href="{{ post.url }}">{{ post.title }}</a></span></li>
+						{% if post.featured == true %}
+							<article class="position-relative pb-2 mb-3 mb-lg-4">
+								<img class="rounded" src="{{ post.thumbnail-image | relative_url }}" alt="{{ post.title }}">
+								<h5 class="h6 mt-3 mb-0"><a class="stretched-link" href="{{ post.url }}">{{ post.title }}</a></h5>
+							</article>
+						{% endif %}
 					{% endfor %}
-				</ul>
+					</div>
+					<h4 class="pt-3 pt-lg-1 mb-4">Artikel Terbaru:</h4>
+					<ul class="list-unstyled mb-lg-5 mb-4">
+						{% for post in site.posts limit: 4 %}
+							<li class="border-bottom pb-3 mb-3"><span class="h6 mb-0"><a href="{{ post.url }}">{{ post.title }}</a></span></li>
+						{% endfor %}
+					</ul>
+				</div>
 			</div>
-		</div>
-	</aside>
+		</aside>
 	</div>
 </section>

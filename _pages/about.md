@@ -20,9 +20,9 @@ permalink: /about/
 				</nav>
 				<h1 class="display-4 pb-2 pb-sm-3">Kami percaya pada keberhasilan setiap pekerjaan terdapat :</h1>
 				<ul class="list-unstyled d-flex flex-wrap mb-0">
-					<li class="d-flex py-1 me-4"><i class="ai-check-alt text-primary lead me-2"></i>Analisis yang cermat</li>
-					<li class="d-flex py-1 me-4"><i class="ai-check-alt text-primary lead me-2"></i>Pola kerja & komunikasi yang baik</li>
-					<li class="d-flex py-1"><i class="ai-check-alt text-primary lead me-2"></i>Segmentasi dengan berbagai metode</li>
+					<li class="d-flex py-1 me-4"><i class="ai-check-alt text-dark lead me-2"></i>Analisis yang cermat</li>
+					<li class="d-flex py-1 me-4"><i class="ai-check-alt text-dark lead me-2"></i>Pola kerja & komunikasi yang baik</li>
+					<li class="d-flex py-1"><i class="ai-check-alt text-dark lead me-2"></i>Segmentasi dengan berbagai metode</li>
 				</ul>
 			</div>
 		</div>
@@ -47,14 +47,14 @@ permalink: /about/
 	</div>
 </section>
 
-<section class="container pt-5 mt-1 mt-sm-2 mt-xl-4 mt-xxl-5">
+<section class="container pt-5 mt-2 mt-xl-4 mt-xxl-5 pb-5">
 	<div class="row align-items-center pt-2 pt-sm-3 pt-md-4 pt-lg-5 mt-xl-2 mt-xxl-3">
 		<div class="col-md-6 col-xl-5 pb-3 pb-md-0 mb-4 mb-md-0">
 			<div class="ratio ratio-1x1 d-flex align-items-center position-relative rounded-circle overflow-hidden bg-size-cover mx-auto" style="max-width: 530px; background-image: url({{ page.static-image-2 | relative_url }});">
 				<div class="bg-black position-absolute top-0 start-0 w-100 h-100 opacity-50"></div>
 				<div class="dark-mode position-relative zindex-2 p-4">
-					<div class="text-center mx-auto" style="max-width: 275px;"><span class="d-block fs-sm text-uppercase mb-3">How we work</span>
-						<h2 class="display-6 mb-0">The key to success</h2>
+					<div class="text-center mx-auto" style="max-width: 275px;">
+						<h2 class="display-6 mb-0">Cara Kerja Kami</h2>
 					</div>
 				</div>
 			</div>
@@ -91,27 +91,6 @@ permalink: /about/
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</section>
-
-<section class="position-relative pt-5 mt-2 mt-xl-4 mt-xxl-5 pb-5">
-	<div class="bg-secondary position-absolute start-0 bottom-0 w-100" style="height: 252px;"></div>
-	<div class="container py-3 pt-sm-4 pt-lg-5 mt-xl-2 mt-xxl-3 mb-3 mb-lg-4">
-		<div class="d-sm-flex align-items-center justify-content-between">
-			<div class="d-none d-sm-flex">
-				<button class="prev-gallery btn btn-icon btn-outline-dark rounded-circle me-3" type="button"><i class="ai-arrow-left"></i></button>
-				<button class="next-gallery btn btn-icon btn-outline-dark rounded-circle" type="button"><i class="ai-arrow-right"></i></button>
-			</div>
-		</div>
-	</div>
-	<div class="container-start position-relative zindex-2 pe-0">
-		<div class="swiper" data-swiper-options='{"slidesPerView": "auto","spaceBetween": 24,"loop": true,"navigation": {"prevEl": ".prev-gallery","nextEl": ".next-gallery"}}'>
-			{% include gallery.html %}
-		</div>
-		<div class="d-flex d-sm-none pt-4">
-			<button class="prev-gallery btn btn-icon btn-outline-dark rounded-circle me-3" type="button"><i class="ai-arrow-left"></i></button>
-			<button class="next-gallery btn btn-icon btn-outline-dark rounded-circle" type="button"><i class="ai-arrow-right"></i></button>
 		</div>
 	</div>
 </section>

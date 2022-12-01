@@ -1,10 +1,11 @@
+# Site Settings
 title: MGSW Studio
-shortname: MGSW
+company: MGSW
 email: mgsw.studio@gmail.com
-description: >-
+desription: >-
   Studio Kreatif di Jakarta yang bergerak dibidang jasa digital seperti Desain dan Branding, Motion dan video, UI & UX serta, jasa pembuatan Website / eCommerce
 tagline: Satu Agensi Berbagai Solusi
-url: "https://mgsw-studio.github.io"
+url: "https://mgsw-studio.com"
 baseurl: "/"
 permalink: /:title
 include:
@@ -19,8 +20,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-minifier
 
-# SCSS
+# SASS
 sass:
+  implementation: sassc
   style: compressed
   sass_dir: _sass
 

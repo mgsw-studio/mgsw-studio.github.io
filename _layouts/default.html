@@ -2,10 +2,10 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html>
+<html lang="{{ site.lang | default: "en-US" }}">
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>
 			{% if page.title %}
 				{{ page.title }} - {{ site.title }}
@@ -22,8 +22,8 @@ layout: compress
 				<div class="page-spinner"></div><span>Mohon Tunggu...</span>
 			</div>
 		</div>
-		<main class="page-wrapper {% if page.url == '/contact/' %} bg-secondary {% endif %}">
-		{% include menu.html %}
+		<main class="page-wrapper">
+		{% include navbar.html %}
 			{{ content }}
 		</main>
 		{% include footer.html %}
