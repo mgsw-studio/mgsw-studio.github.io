@@ -47,7 +47,7 @@ permalink: /about/
 	</div>
 </section>
 
-<section class="container pt-5 mt-2 mt-xl-4 mt-xxl-5 pb-5">
+<section class="container pt-3 mt-2 mt-xl-3 mt-xxl-3 pb-5">
 	<div class="row align-items-center pt-2 pt-sm-3 pt-md-4 pt-lg-5 mt-xl-2 mt-xxl-3">
 		<div class="col-md-6 col-xl-5 pb-3 pb-md-0 mb-4 mb-md-0">
 			<div class="ratio ratio-1x1 d-flex align-items-center position-relative rounded-circle overflow-hidden bg-size-cover mx-auto" style="max-width: 530px; background-image: url({{ page.static-image-2 | relative_url }});">
