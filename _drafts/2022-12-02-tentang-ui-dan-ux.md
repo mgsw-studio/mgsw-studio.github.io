@@ -24,10 +24,6 @@ Istilah UI atau *User Interface* digunakan untuk menggambarkan tempat di mana ma
 
 Ini bisa berupa melakukan pembelian, mengunduh aplikasi, atau berbelanja online. Fakta menyenangkannya adalah Anda membaca artikel ini berkat UI.
 
-Sebagai penyederhanaan, komponen antarmuka pengguna adalah perangkat keras input (perangkat seperti keyboard, mouse, joystick, dll.) dan perangkat keras output yang menampilkan kemajuan tugas serta informasi tambahan dan opsi perintah. (Layar yang Anda lihat saat ini adalah salah satu bentuk perangkat keras keluaran paling populer dengan asisten suara yang masuk di tempat ke-2.)
-
-Perangkat input bekerja bersama-sama dengan perangkat keras output untuk memungkinkan pengguna mengontrol mesin yang dimaksud.
-
 ##### Jenis-Jenis UI
 
 Ada beberapa jenis Antarmuka Pengguna. Tiga jenis UI yang paling populer adalah antarmuka baris perintah, antarmuka pengguna grafis, dan antarmuka pengguna yang mendukung suara:
@@ -40,7 +36,7 @@ Pada awal era komputer, pengguna berinteraksi dengan komputer melalui CLI, juga 
 
 Berikutnya dalam daftar kami adalah antarmuka pengguna grafis, umumnya dikenal sebagai GUI. GUI sejauh ini merupakan bentuk UI yang paling umum di dunia saat ini di mana pengguna berinteraksi dengan produk digital melalui komponen visual yang mudah dipahami. Setelah berinteraksi dengan GUI, pengguna disajikan dengan banyak halaman dan layar interaktif dengan elemen statis dan aktif yang memfasilitasi interaksi lebih lanjut.
 
-Xerox PARC mengembangkan GUI pertama di awal 80-an. Itu dimaksudkan untuk terlihat mirip dengan meja kantor saat itu. Beberapa tahun kemudian, pada tahun 1984, Apple merilis Macintosh, menjadi sistem komputer rumah pertama yang sukses secara komersial dengan antarmuka GUI. Dengan Apple Mac, setiap dan semua orang sekarang dapat menggunakan komputer tanpa harus tahu cara membuat kode.
+[Xerox PARC]("https://www.parc.com/") mengembangkan GUI pertama di awal 80-an. Membuat GUI agar terlihat mirip dengan meja kantor pada saat itu. Beberapa tahun kemudian, pada tahun 1984, Apple merilis Macintosh, menjadi sistem komputer rumah pertama yang sukses secara komersial dengan antarmuka GUI. Dengan Apple Mac, setiap dan semua orang sekarang dapat menggunakan komputer tanpa harus tahu cara membuat kode.
 
 Seperti disebutkan sebelumnya, GUI adalah jenis UI yang paling umum yang lazim saat ini. Mengingat popularitas besar antarmuka GUI, kader terpisah dari orang-orang yang dapat merancang produk untuk antarmuka ini menjadi terkenal - desainer UI lingkungan Anda yang ramah. Mengingat munculnya perangkat seperti smartphone, headset VR, dan HMI mobil, desainer UI memiliki spektrum tanggung jawab yang luas di era digital.
 
