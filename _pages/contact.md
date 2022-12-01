@@ -31,11 +31,8 @@ permalink: /contact/
 					<div class="card-body">
 						<h4 class="card-title mb-4">Jam Operasional</h4>
 						<ul class="list-unstyled mb-0">
-							<li class="pb-1"><span class="d-block fs-sm text-muted mb-1">Senin - Kamis</span>
-								<div class="d-flex align-items-center"><span class="text-nav fs-lg fw-medium">10:00</span><span class="border-top mx-4" style="width: 36px; height: 1px;"></span><span class="text-nav fs-lg fw-medium">22:00</span></div>
-							</li>
-							<li><span class="d-block fs-sm text-muted mb-1">Jum'at - Sabtu</span>
-								<div class="d-flex align-items-center"><span class="text-nav fs-lg fw-medium">10:00</span><span class="border-top mx-4" style="width: 36px; height: 1px;"></span><span class="text-nav fs-lg fw-medium">20:00</span></div>
+							<li class="pb-1"><span class="d-block fs-sm text-muted mb-1">Senin - Jum'at</span>
+								<div class="d-flex align-items-center"><span class="text-nav fs-lg fw-medium">09:00</span><span class="border-top mx-4" style="width: 36px; height: 1px;"></span><span class="text-nav fs-lg fw-medium">20:00</span></div>
 							</li>
 						</ul>
 					</div>

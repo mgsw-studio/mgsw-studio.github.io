@@ -14,13 +14,17 @@ Dalam dunia desain, istilah User Experience (UX) dan User Interface (UI) sering 
 
 Meskipun istilah-istilah ini mungkin tampak seperti konsep yang rumit bagi yang belum tahu, mereka sebenarnya sudah ada cukup lama sekarang.
 
-Pengembang web, aplikasi, dan perangkat lunak pada umumnya sering menggunakan istilah-istilah ini secara bergantian dan seringkali bahkan salah. Artikel ini bertujuan untuk memberikan semua informasi yang kamu butuhkan untuk memahami UI vs UX, persamaannya, dan perbedaannya. Jadi tanpa basa-basi lagi, mari kita mulai!
+Pengembang web, aplikasi, dan perangkat lunak pada umumnya sering menggunakan istilah-istilah ini secara bergantian dan seringkali bahkan salah.
+
+Artikel ini bertujuan untuk memberikan semua informasi yang kamu butuhkan untuk memahami UI vs UX, persamaannya, dan perbedaannya. Jadi tanpa basa-basi lagi, mari kita mulai!
 
 #### Apa itu UI?
 
-Istilah UI atau *User Interface* digunakan untuk menggambarkan tempat di mana manusia dan mesin berinteraksi. UI memfasilitasi pengoperasian mesin dengan memungkinkannya merujuk ke perintah pengguna dan bekerja sedemikian rupa sehingga tujuan pengguna terpenuhi. Ini bisa berupa melakukan pembelian, mengunduh aplikasi, atau berbelanja online. Fakta menyenangkannya adalah Anda membaca artikel ini berkat UI.
+Istilah UI atau *User Interface* digunakan untuk menggambarkan tempat di mana manusia dan mesin berinteraksi. UI memfasilitasi pengoperasian mesin dengan memungkinkannya merujuk ke perintah pengguna dan bekerja sedemikian rupa sehingga tujuan pengguna terpenuhi.
 
-Sebagai penyederhanaan yang berlebihan, komponen antarmuka pengguna adalah perangkat keras input (perangkat seperti keyboard, mouse, joystick, dll.) dan perangkat keras output yang menampilkan kemajuan tugas serta informasi tambahan dan opsi perintah. (Layar yang Anda lihat saat ini adalah salah satu bentuk perangkat keras keluaran paling populer dengan asisten suara yang masuk di tempat ke-2.)
+Ini bisa berupa melakukan pembelian, mengunduh aplikasi, atau berbelanja online. Fakta menyenangkannya adalah Anda membaca artikel ini berkat UI.
+
+Sebagai penyederhanaan, komponen antarmuka pengguna adalah perangkat keras input (perangkat seperti keyboard, mouse, joystick, dll.) dan perangkat keras output yang menampilkan kemajuan tugas serta informasi tambahan dan opsi perintah. (Layar yang Anda lihat saat ini adalah salah satu bentuk perangkat keras keluaran paling populer dengan asisten suara yang masuk di tempat ke-2.)
 
 Perangkat input bekerja bersama-sama dengan perangkat keras output untuk memungkinkan pengguna mengontrol mesin yang dimaksud.
 
