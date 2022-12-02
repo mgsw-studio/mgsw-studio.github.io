@@ -10,7 +10,7 @@ author: "Mogsaw"
 author-info: "Full Stack Developer"
 ---
 
-Dalam dunia desain, istilah User Experience (UX) dan User Interface (UI) sering digunakan.
+Dalam dunia desain, istilah *User Experience (UX)* dan *User Interface (UI)* sering digunakan.
 
 Meskipun istilah-istilah ini mungkin tampak seperti konsep yang rumit bagi yang belum tahu, mereka sebenarnya sudah ada cukup lama sekarang.
 
@@ -30,7 +30,7 @@ Ada beberapa jenis Antarmuka Pengguna. Tiga jenis UI yang paling populer adalah 
 
 - Command Line Interface (CLI)
 
-Pada awal era komputer, pengguna berinteraksi dengan komputer melalui CLI, juga dikenal sebagai Command Line Interface. Interaksi antara manusia dan mesin saat menggunakan CLI bersifat linier. Pengguna memasukkan pernyataan perintah dan mesin merespons baik dengan pesan di layarnya atau melalui cetakan. Kompleksitas CLI cukup tinggi, mengingat bahwa setiap pengguna harus mengetahui 'bahasa mesin' sistem untuk interaksi yang sukses.
+Pada awal era komputer, pengguna berinteraksi dengan komputer melalui CLI, juga dikenal sebagai *Command Line Interface*. Interaksi antara manusia dan mesin saat menggunakan CLI bersifat linier. Pengguna memasukkan pernyataan perintah dan mesin merespons baik dengan pesan di layarnya atau melalui cetakan. Kompleksitas CLI cukup tinggi, mengingat bahwa setiap pengguna harus mengetahui 'bahasa mesin' sistem untuk interaksi yang sukses.
 
 - Graphical User Interface (GUI)
 
@@ -42,9 +42,9 @@ Seperti disebutkan sebelumnya, GUI adalah jenis UI yang paling umum yang lazim s
 
 - Voice-Based Interfaces
 
-Kurva pembelajaran antarmuka berbasis GUI adalah penghalang signifikan untuk adopsi. Setiap kali pengguna memperoleh produk baru, ia harus menghabiskan sejumlah waktu untuk sepenuhnya memahami fitur, fungsi, dan kemampuannya. Semakin banyak waktu yang dihabiskan seseorang dengan GUI, semakin curam kurva belajarnya. Desainer produk di seluruh dunia mulai memimpikan situasi yang membutuhkan UI nol.
+Kurva pembelajaran antarmuka berbasis GUI adalah penghalang signifikan untuk beradaptasi. Setiap kali pengguna memperoleh produk baru, ia harus menghabiskan sejumlah waktu untuk sepenuhnya memahami fitur, fungsi, dan kemampuannya. Semakin banyak waktu yang dihabiskan seseorang dengan GUI, semakin curam kurva belajarnya. Desainer produk di seluruh dunia mulai memimpikan situasi yang membutuhkan UI nol.
 
-Di sinilah antarmuka berkemampuan suara masuk untuk menyelamatkan hari. Dengan antarmuka berbasis suara, pengguna sekarang dapat langsung berbicara dengan sistem yang didukung oleh teknologi Natural Language Processing. Beberapa antarmuka berbasis suara bertenaga AI yang sukses adalah Alexa dan Google Assistant.
+Di sinilah antarmuka dengan berkemampuan suara masuk untuk menyelamatkan hari-hari. Dengan antarmuka berbasis suara, pengguna sekarang dapat langsung berbicara dengan sistem yang didukung oleh teknologi *Natural Language Processing*. Beberapa antarmuka berbasis suara bertenaga AI yang sukses adalah Alexa dan Google Assistant.
 
 ##### Dasar-dasar UI yang Dirancang dengan Baik
 
