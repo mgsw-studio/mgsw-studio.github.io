@@ -54,15 +54,6 @@
 		"url": "/rantang-emas/"
 	},
 	{
-		"client-name": "Mesin HL",
-		"description": "Membuat & mengembangkan web ecommerce untuk penjualan alat perkakas",
-		"project-thumbnail": "assets/img/projects/mesin-hl/mesin-hl-web-thumbnail.webp",
-		"data-group": "web-ecommerce",
-		"category": "Web & eCommerce",
-		"year": "2021",
-		"url": "/mesin-hl/"
-	},
-	{
 		"client-name": "D'Balcony Coffee",
 		"description": "Membuat identitas & media promosi serta menu untuk di cafe",
 		"project-thumbnail": "assets/img/projects/d-balcony-coffee/d-balcony-coffee-thumbnail.webp",

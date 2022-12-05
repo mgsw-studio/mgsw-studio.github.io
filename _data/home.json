@@ -101,18 +101,6 @@
 			"width": "150"
 		},
 		{
-			"name": "Mesin HL",
-			"logo-dark": "assets/img/clients/mesin-hl-dark.webp",
-			"logo-light": "assets/img/clients/mesin-hl-light.webp",
-			"width": "150"
-		},
-		{
-			"name": "Meraki Store",
-			"logo-dark": "assets/img/clients/meraki-dark.webp",
-			"logo-light": "assets/img/clients/meraki-light.webp",
-			"width": "150"
-		},
-		{
 			"name": "Frank & Co",
 			"logo-dark": "assets/img/clients/frank-co-dark.webp",
 			"logo-light": "assets/img/clients/frank-co-light.webp",
