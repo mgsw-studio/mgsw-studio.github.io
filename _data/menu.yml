@@ -32,6 +32,8 @@ contact-menu:
 
 social-menu:
   - name: "<i class='ai-instagram'></i>&nbsp; Instagram"
-    url: "https://www.instagram.com/mgsw.studio"
+    url: "https://www.instagram.com/mgsw.studio/"
   - name: "<i class='ai-cart'></i>&nbsp; Tokopedia"
-    url: "https://www.tokopedia.com/mgswid"
+    url: "https://www.tokopedia.com/mgswid/"
+  - name: "<i class='ai-cart'></i>&nbsp; Shopee"
+    url: "https://shopee.co.id/mgswid/"
