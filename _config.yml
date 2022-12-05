@@ -20,12 +20,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-minifier
 
-# SASS
-sass:
-  implementation: sassc
-  style: compressed
-  sass_dir: _sass
-
 # Jekyll Minifier
 jekyll-minifier:
   exclude: "atom.xml"
