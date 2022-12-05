@@ -142,6 +142,9 @@
 	<link rel="stylesheet" media="screen" href="{{ '/assets/vendors/swiper/swiper-bundle.min.css' | relative_url }}"/>
 	<link rel="stylesheet" media="screen" href="{{ '/assets/css/theme.css' | relative_url }}">
 {% endif %}
+{% if page.url == "/marketplace/" %}
+	<link rel="stylesheet" media="screen" href="{{ '/assets/css/theme.css' | relative_url }}">
+{% endif %}
 {% if page.path contains "_services" %}
 	<link rel="stylesheet" media="screen" href="{{ '/assets/vendors/swiper/swiper-bundle.min.css' | relative_url }}"/>
 	<link rel="stylesheet" media="screen" href="{{ '/assets/css/theme.css' | relative_url }}">

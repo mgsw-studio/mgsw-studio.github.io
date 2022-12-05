@@ -15,6 +15,8 @@ main-menu:
     url: "/pricing/"
   - name: "Blog"
     url: "/blog/"
+  - name: "Marketplace"
+    url: "/marketplace/"
   - name: "Kursus"
     url: "/courses/"
 
